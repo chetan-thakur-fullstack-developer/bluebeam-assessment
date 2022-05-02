@@ -1,0 +1,62 @@
+@import "./vars";
+
+//Green Button
+.btn {
+  position: relative;
+  background-color: $COLOR_BTN_GRN;
+  border: none;
+  font-size: $FONT_SIZE_REGULAR;
+  color: $COLOR_TEXT;
+  padding: 0.5em 1em;
+  width: 160px;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  text-decoration: none;
+  &:hover {
+    background-color: $COLOR_BTN_GRN_HOVER;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+// Blue Button
+.btnBlu {
+  background-color: $COLOR_BTN_BLU;
+
+  &:hover {
+    background-color: $COLOR_BTN_BLU_HOVER;
+  }
+}
+
+// Grey Button
+.btnGry {
+  background-color: $COLOR_BTN_GRY;
+
+  &:hover {
+    background-color: $COLOR_BTN_GRY_HOVER;
+  }
+}
+
+// Red Button
+.btnRed {
+  background-color: $COLOR_BTN_RED;
+  &:hover {
+    background-color: $COLOR_BTN_RED_HOVER;
+  }
+}
+
+// Cyan Button
+.btnCyn {
+  background-color: $COLOR_BTN_CYN;
+  &:hover {
+    background-color: $COLOR_BTN_CYN_HOVER;
+  }
+}

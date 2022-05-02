@@ -1,0 +1,14 @@
+@import "./Content/vars";
+@import "./Content/btn";
+@import "./Content/modal";
+
+a {
+  color: $COLOR_UI_WHITE;
+}
+a:link {
+  text-decoration: none;
+}
+
+.h1 {
+  font-size: 2em;
+}

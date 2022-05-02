@@ -1,0 +1,64 @@
+.modalBackground {
+  bottom: 0;
+  top: 0;
+  outline: 0;
+  padding-top: 5px;
+  background-color: $Color_UI_BG;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  align-items: center;
+}
+
+.modalContainer {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 10px;
+  background-color: $COLOR_UI_WHITE;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  color: $COLOR_UI_BLACK;
+  margin-top: 10px;
+  font-size: $FONT_SIZE_REGULAR;
+  justify-content: center;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: $FONT_SIZE_REGULAR;
+  cursor: pointer;
+}
+
+.modalContainer .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 50%;
+}
