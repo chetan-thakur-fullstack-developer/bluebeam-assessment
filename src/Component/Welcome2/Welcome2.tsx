@@ -16,7 +16,7 @@ function Welcome2() {
 
     return (
         <div>
-            <h1 className="h1"><a href="/">Welcome!</a></h1>
+            <h1 className="h1"><a href="/bluebeam-assessment/#/">Welcome!</a></h1>
 
             <button name="Edit" type="submit" className="btn btnBlu" data-testid="toggle-image-view" onClick={sendMessage}>
                 Edit

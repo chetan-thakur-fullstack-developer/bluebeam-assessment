@@ -50,7 +50,7 @@ function Modal({ modalOpen }: { modalOpen: any }) {
                     </button>
 
                     <button name="Delete" type="submit" className="btn btnRed" >
-                        <a href="/story2/">Delete</a>
+                        <a href="/bluebeam-assessment/#/">Delete</a>
                     </button>
                 </div>
             </div>

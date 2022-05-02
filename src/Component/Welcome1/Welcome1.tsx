@@ -4,7 +4,7 @@
 function Welcome1() {
     return (
         <div>
-            <h1 className="h1"><a href="/">Welcome!</a></h1>
+            <h1 className="h1"><a href="/bluebeam-assessment/#/">Welcome!</a></h1>
 
             <button name="Logout" type="submit" className="btn btnCyn">
                 <a href="https://www.bluebeam.com/">Logout</a>
