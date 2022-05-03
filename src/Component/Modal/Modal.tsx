@@ -28,6 +28,10 @@ function Modal({ modalOpen }: { modalOpen: any }) {
         };
     }, [modalOpen, dialogRef]);
 
+    let refresh = () => {
+        window.location.reload();
+    }
+
     return (
         <div className="modalBackground">
             <div className="modalContainer" ref={dialogRef}>
@@ -49,8 +53,8 @@ function Modal({ modalOpen }: { modalOpen: any }) {
                         Cancel
                     </button>
 
-                    <button name="Delete" type="submit" className="btn btnRed" >
-                        <a href="/story2/">Delete</a>
+                    <button name="Delete" type="submit" className="btn btnRed" onClick={refresh} >
+                        Delete
                     </button>
                 </div>
             </div>
