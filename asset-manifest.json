@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bluebeam-assessment/static/css/main.ed29b477.css",
-    "main.js": "/bluebeam-assessment/static/js/main.97119aca.js",
+    "main.css": "/bluebeam-assessment/static/css/main.6c7b2562.css",
+    "main.js": "/bluebeam-assessment/static/js/main.33a6814c.js",
     "static/js/787.c8891071.chunk.js": "/bluebeam-assessment/static/js/787.c8891071.chunk.js",
     "static/media/user.png": "/bluebeam-assessment/static/media/user.d0ccfdafc429d33f472e.png",
     "index.html": "/bluebeam-assessment/index.html",
-    "main.ed29b477.css.map": "/bluebeam-assessment/static/css/main.ed29b477.css.map",
-    "main.97119aca.js.map": "/bluebeam-assessment/static/js/main.97119aca.js.map",
+    "main.6c7b2562.css.map": "/bluebeam-assessment/static/css/main.6c7b2562.css.map",
+    "main.33a6814c.js.map": "/bluebeam-assessment/static/js/main.33a6814c.js.map",
     "787.c8891071.chunk.js.map": "/bluebeam-assessment/static/js/787.c8891071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed29b477.css",
-    "static/js/main.97119aca.js"
+    "static/css/main.6c7b2562.css",
+    "static/js/main.33a6814c.js"
   ]
 }
