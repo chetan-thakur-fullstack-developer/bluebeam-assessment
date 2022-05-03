@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Modal from "../Modal/Modal";
+import * as Constant from '../../Constant/Constant'
 
 /**
  * Welcome2 page component as per story2.
@@ -11,23 +12,27 @@ function Welcome2() {
     // Will receive event from edit button click, and display javascript alert box with message.
     const sendMessage = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
-        alert("Account Edited");
+        alert(Constant.ACCOUNT_EDITED);
     };
+
+
 
     return (
         <div>
-            <h1 className="h1"><a href="/">Welcome!</a></h1>
+            <h1 className="h1"><a href={Constant.HOMEPAGE_URL}>{Constant.WELCOME}</a></h1>
 
-            <button name="Edit" type="submit" className="btn btnBlu" data-testid="toggle-image-view" onClick={sendMessage}>
-                Edit
+            <button name="Edit" type="submit" className="btn btnBlu" onClick={sendMessage}>
+                {Constant.EDIT_ACCOUNT}
             </button>
 
             <button name="Delete" type="submit" className="btn btnRed" onClick={() => { setOpenModal(true); }}>
-                Delete
+                {Constant.DELETE_ACCOUNT}
             </button>
 
             <button name="Logout" type="submit" className="btn btnCyn">
-                <a href="https://www.bluebeam.com/">Logout</a>
+                <a href={Constant.BLUEBEAM_URL}>
+                    {Constant.LOGOUT}
+                </a>
             </button>
 
             {openModal && <Modal modalOpen={setOpenModal} />}
