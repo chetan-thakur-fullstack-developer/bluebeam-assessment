@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import user from "../../Assets/user.png"
+import * as Constant from '../../Constant/Constant'
 
 /**
  * Delete modal confirmation component will load at the time of click delete button.
@@ -28,7 +29,7 @@ function Modal({ modalOpen }: { modalOpen: any }) {
         };
     }, [modalOpen, dialogRef]);
 
-    function refreshPage() {
+    let refresh = () => {
         window.location.reload();
     }
 
@@ -45,19 +46,19 @@ function Modal({ modalOpen }: { modalOpen: any }) {
                 <img className="img" src={user} alt="UserImage" />
 
                 <div className="title">
-                    Are your sure you want to delete your account?
+                    {Constant.DELETE_ACCOUNT_TEXT}
                 </div>
 
                 <div className="footer">
                     <button name="Cancel" type="submit" className="btn btnGry" onClick={() => { modalOpen(false) }}>
-                        Cancel
+                        {Constant.CANCEL}
                     </button>
 
-                    <button name="Delete" type="submit" className="btn btnRed" onClick={refreshPage} >
-                        Delete
+                    <button name="Delete" type="submit" className="btn btnRed" onClick={refresh} >
+                        {Constant.DELETE}
                     </button>
                 </div>
-            </div>
+            </div >
         </div >
     );
 }
