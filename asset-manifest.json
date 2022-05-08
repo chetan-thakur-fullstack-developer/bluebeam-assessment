@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bluebeam-assessment/static/css/main.b5bd3a70.css",
+    "main.css": "/bluebeam-assessment/static/css/main.2c6a0080.css",
     "main.js": "/bluebeam-assessment/static/js/main.c8bdf1e1.js",
     "static/js/787.c8891071.chunk.js": "/bluebeam-assessment/static/js/787.c8891071.chunk.js",
     "static/media/user.png": "/bluebeam-assessment/static/media/user.d0ccfdafc429d33f472e.png",
     "index.html": "/bluebeam-assessment/index.html",
-    "main.b5bd3a70.css.map": "/bluebeam-assessment/static/css/main.b5bd3a70.css.map",
+    "main.2c6a0080.css.map": "/bluebeam-assessment/static/css/main.2c6a0080.css.map",
     "main.c8bdf1e1.js.map": "/bluebeam-assessment/static/js/main.c8bdf1e1.js.map",
     "787.c8891071.chunk.js.map": "/bluebeam-assessment/static/js/787.c8891071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5bd3a70.css",
+    "static/css/main.2c6a0080.css",
     "static/js/main.c8bdf1e1.js"
   ]
 }
